@@ -245,14 +245,10 @@ void ratePlaylist(int index) {
     }
 
     float rating;
-    printf("Enter rating ("C_RED"1.00"C_RESET"-"C_GREEN"5.00"C_RESET") or 0 to go back: ");
+    printf("Enter rating ("C_RED"0.00"C_RESET"-"C_GREEN"5.00"C_RESET"): ");
     scanf("%f", &rating);
 
     if (rating < 1 || rating > 5) {
-        if (rating == 0) {
-            clearScreen();
-            viewPlaylist(index);
-        }
         printf(C_RED"Invalid choice."C_RESET"\n");
         sleep(1);
         clearScreen();
