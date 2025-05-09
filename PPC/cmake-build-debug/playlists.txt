@@ -1,9 +1,3 @@
-Pop Music
-Song X
-Song Y
-Song Z
-Ratings:5.0,4.0,3.5
-
 Rock Hits
 Song A
 Song B

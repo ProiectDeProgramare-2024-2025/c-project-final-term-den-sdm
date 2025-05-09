@@ -112,14 +112,14 @@ void viewPlaylists() {
     printf("Enter the number of the playlist to view or 0 to go back: ");
     scanf("%d", &choice);
 
-    if (choice == 0) {
-        displayMenu();
-    }
-    else if (choice > 0 && choice <= playlistCount) {
+    if (choice >= 0 && choice <= playlistCount) {
+        if (choice == 0) {
+            return;
+        }
         clearScreen();
         viewPlaylist(choice - 1);
     }
-    else {
+    else{
         printf(C_RED"Invalid choice."C_RESET"\n");
         sleep(1);
         clearScreen();
