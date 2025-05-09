@@ -1,0 +1,3 @@
+C:/Users/DevilDen/CLionProjects/PPC/cmake-build-debug/CMakeFiles/PPC.dir
+C:/Users/DevilDen/CLionProjects/PPC/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DevilDen/CLionProjects/PPC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

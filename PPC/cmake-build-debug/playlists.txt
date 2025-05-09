@@ -1,0 +1,16 @@
+Pop Music
+Song X
+Song Y
+Song Z
+Ratings:5.0,4.0,3.5
+
+Rock Hits
+Song A
+Song B
+Ratings:4.5,3.0
+
+Playlist #1
+Song 1
+Song 2
+Ratings:2.0,3.0,5.0
+
